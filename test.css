@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg");
+    background-image: url('https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg');
 }
 
 .grid {
@@ -46,7 +46,9 @@ body {
 }
 
 .img {
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 p {
@@ -76,11 +78,10 @@ hr {
 
 .flex-image {
     display: flex;
-    width: 1fr;
-    height: 80%;
+    width: 100%;
     min-width: 0;
     /*Gap between images*/
-    gap: 5px;
+    gap: 0px;
 }
 
 .flex-image > * {
